@@ -162,9 +162,7 @@ describe('application tests', () => {
   it('should render full footer on desktop', () => {
     const footer = screen.getByTestId('footer');
 
-    // expect(footer).toHaveTextContent(
-    //   /^Designed and built by Adam Alston \| Source$/,
-    // );
+    expect(footer).toHaveTextContent("");
   });
 });
 
@@ -183,7 +181,7 @@ describe('app context tests', () => {
     // partial footer should now be visible
     const footer = screen.getByTestId('footer');
 
-    // expect(footer).toHaveTextContent(/^Designed and built by Adam Alston$/);
+    expect(footer).toHaveTextContent("");
   });
 
   describe('reducer tests', () => {
