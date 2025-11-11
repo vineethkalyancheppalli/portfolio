@@ -34,7 +34,7 @@ export const Footer = () => {
   return (
     <F.Container $isMobile={isMobile}>
       <F.Text data-v2="footer" $theme={theme}>
-        {'Inspired from '}
+        {/* {'Inspired from '}
         <F.Link
           data-v2="creator"
           aria-label=""
@@ -44,7 +44,7 @@ export const Footer = () => {
           $theme={theme}
         >
           {"Adam Alston's Portfolio"}
-        </F.Link>
+        </F.Link> */}
         {/* {!isMobile && (
           <>
             {' | '}
