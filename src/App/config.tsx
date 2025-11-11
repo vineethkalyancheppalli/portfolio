@@ -9,13 +9,13 @@ export const config: Config = {
     display: 'Software Engineer',
   },
   buttons: [
-    {
-      name: 'github',
-      display: 'GitHub',
-      ariaLabel: 'GitHub profile (opens in new window)',
-      icon: <GitHub />,
-      href: '#',
-    },
+    // {
+    //   name: 'github',
+    //   display: 'GitHub',
+    //   ariaLabel: 'GitHub profile (opens in new window)',
+    //   icon: <GitHub />,
+    //   href: '#',
+    // },
     {
       name: 'linked-in',
       display: 'LinkedIn',
