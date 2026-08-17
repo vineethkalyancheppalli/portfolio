@@ -28,7 +28,7 @@ export const config: Config = {
       display: 'Resume',
       ariaLabel: 'Resume in Google Drive (opens in new window)',
       icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1ZNLhJ83DXjlrabVNNRtuTWXBfGi37-yF/view?usp=drive_link', //'https://drive.google.com/file/d/1xYBAkmpP6d4RDhzExYeLMqLt1lUT4awe/view?usp=drive_link', // other resume link: https://drive.google.com/file/d/1HOAWyGDs8sjcTGJc1T1ReptePzwY5USq/view?usp=sharing
+      href: 'https://drive.google.com/file/d/1ZNLhJ83DXjlrabVNNRtuTWXBfGi37-yF/view?usp=sharing', //'https://drive.google.com/file/d/1xYBAkmpP6d4RDhzExYeLMqLt1lUT4awe/view?usp=drive_link', // other resume link: https://drive.google.com/file/d/1HOAWyGDs8sjcTGJc1T1ReptePzwY5USq/view?usp=sharing
     },
     {
       name: 'email',
